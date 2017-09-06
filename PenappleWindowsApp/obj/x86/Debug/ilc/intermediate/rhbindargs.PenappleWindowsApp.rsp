@@ -1,0 +1,15 @@
+/osver:6.2
+/appcontainer
+/runtime:mrt100_app
+/eh:clr
+/pdb
+"/nativeLink:C:\Users\Eric L\.nuget\packages\microsoft.net.native.compiler\1.6.1\tools\x86\ilc\lib\Native\vmath.lib"
+/customImports
+"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\MDIL\PenappleWindowsApp.mdilexe"
+"/i:C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\MDIL"
+"/out:C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\Native\PenappleWindowsApp.exe"
+"/pdbAltPath:C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc"
+"/res:C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\Native.res"
+"/i:C:\Users\Eric L\.nuget\packages\microsoft.net.native.sharedlibrary-x86\1.6.0\tools\SharedLibrary\chk\MDIL"
+/shimexe
+"/classlib:SharedLibrary"

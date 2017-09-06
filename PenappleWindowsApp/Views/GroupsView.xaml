@@ -1,0 +1,81 @@
+﻿<Page
+    x:Class="PenappleWindowsApp.Views.GroupsView"
+    xmlns:ViewModels="using:PenappleWindowsApp.ViewModels"
+    xmlns:Models="using:PenappleWindowsApp.Models"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PenappleWindowsApp.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Universal.UI.Xaml.Controls"
+    mc:Ignorable="d">
+
+    <!-- F9F3FE C5A3E0 -->
+    <Border Background="#d2b9ea">
+        <Grid Background="#F9F3FE">
+            <FlyoutBase.AttachedFlyout>
+                <MenuFlyout/>
+            </FlyoutBase.AttachedFlyout>
+
+            <!-- Total Row size sum should be 4.4 -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height=".4*"/>
+                <RowDefinition Height="4*"/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" BorderBrush="#e4d0f5" BorderThickness="0 0 0 2">
+                <TextBlock Text="{Binding ScreenTitle}" FontSize="28" FontFamily="Patua One"  Grid.Row="0" Grid.Column="2"
+                    HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="DarkGray"/>
+            </Border>
+
+            <controls:SwipeListView ItemsSource="{Binding GroupsList}" Name="GroupsBox" RightTapped="GroupsBox_RightTapped"
+                                    ItemClick="GroupsBox_ItemClick" IsItemClickEnabled="True" ItemSwipe="GroupsBox_ItemSwipe" 
+                                    HorizontalAlignment="Stretch" VerticalAlignment="Top" Grid.Row="1">
+                <controls:SwipeListView.ItemLeftContentTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                            <TextBlock Text="Rename" Foreground="White" FontSize="24px" TextAlignment="Center" VerticalAlignment="Center"/>
+                            <Image Source="../Assets/ic_mode_edit_black_24dp.png" MaxHeight="50" MaxWidth="50" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="15"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </controls:SwipeListView.ItemLeftContentTemplate>
+                <controls:SwipeListView.ItemRightContentTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                            <Image Source="../Assets/ic_delete_black_24dp.png" MaxHeight="50" MaxWidth="50" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBlock Text="Delete" Foreground="White" FontSize="24px" TextAlignment="Center" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </controls:SwipeListView.ItemRightContentTemplate>
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <!-- e4d0f5-->
+                        <Border BorderBrush="#e4d0ff" BorderThickness="0 0 0 1.5">
+                            <StackPanel>
+                                <TextBlock Text="{Binding groupName}" FontSize="24px" Foreground="Black" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Text="{Binding groupMembers}" FontSize="16px" Foreground="Gray" TextWrapping="Wrap"></TextBlock>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+                <ListView.Resources>
+                    <MenuFlyout x:Name="GroupOptionsFlyout">
+                        <MenuFlyoutItem x:Name="Rename" Text="Rename" Click="Rename_Clicked"/>
+                        <MenuFlyoutItem x:Name="Delete" Text="Delete" Click="Delete_Clicked"/>
+                    </MenuFlyout>
+                </ListView.Resources>
+            </controls:SwipeListView>
+
+            <ProgressRing IsActive="{Binding LoadingIndicator}" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1"
+                          Height="100" Width="100" Foreground="#5a00b4"/>
+            
+            <Frame Name="contentFrame" Grid.Row="0" Grid.RowSpan="2"/>
+        </Grid>
+    </Border>
+</Page>

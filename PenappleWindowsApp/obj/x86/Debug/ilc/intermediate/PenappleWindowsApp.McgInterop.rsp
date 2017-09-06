@@ -1,0 +1,45 @@
+ /debug:full
+ /nowarn:0436;0618;1668;1685;1701;1702
+ /debug+
+ /nostdlib+
+ /optimize-
+ /out:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\PenappleWindowsApp.McgInterop.dll"
+ /pdb:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\PenappleWindowsApp.McgInterop.pdb"
+ /platform:x86
+ /warnaserror+
+ /unsafe
+ /nologo
+ /target:library
+ /define:MCG_PRE_BUILD
+ /define:DEBUG
+ /r:"C:\Users\Eric L\.nuget\packages\microsoft.net.native.compiler\1.6.1\tools\x86\ilc\lib\Private\System.Private.CoreLib.dll"
+ /r:"C:\Users\Eric L\.nuget\packages\microsoft.net.native.compiler\1.6.1\tools\x86\ilc\lib\Private\System.Private.CoreLib.InteropServices.dll"
+ /r:"C:\Users\Eric L\.nuget\packages\microsoft.net.native.compiler\1.6.1\tools\x86\ilc\lib\Private\System.Private.Interop.dll"
+ /r:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\in\System.Private.Uri.dll"
+ /r:"C:\Users\Eric L\.nuget\packages\microsoft.net.native.compiler\1.6.1\tools\x86\ilc\lib\Private\System.Private.CompilerServices.ICastable.dll"
+ /r:"C:\Users\Eric L\.nuget\packages\microsoft.net.native.compiler\1.6.1\tools\x86\ilc\lib\Private\System.Private.Reflection.dll"
+ /r:"C:\Users\Eric L\.nuget\packages\microsoft.net.native.compiler\1.6.1\tools\x86\ilc\lib\Private\System.Private.DispatchProxy.dll"
+ /r:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\in\System.Reflection.DispatchProxy.dll"
+ /r:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\in\System.Reflection.dll"
+ /r:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\in\System.Runtime.dll"
+ /r:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\in\System.Runtime.InteropServices.dll"
+ /r:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\in\System.Runtime.InteropServices.WindowsRuntime.dll"
+ /r:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\in\System.Numerics.Vectors.dll"
+ /r:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\in\System.Threading.dll"
+ /r:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\in\System.Diagnostics.Debug.dll"
+ /r:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\in\System.Runtime.WindowsRuntime.UI.Xaml.dll"
+ /r:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll"
+ /r:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\in\System.Dynamic.Runtime.dll"
+ /r:"C:\Users\Eric L\.nuget\packages\microsoft.net.native.compiler\1.6.1\tools\x86\ilc\lib\Private\System.Private.CoreLib.Augments.dll"
+ /r:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\in\System.Runtime.Extensions.dll"
+ /r:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\in\System.Collections.dll"
+ /r:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\in\System.ObjectModel.dll"
+ /r:"C:\Users\Eric L\.nuget\packages\microsoft.net.native.sharedlibrary-x86\1.6.0\tools\SharedLibrary\chk\AnalysisILToc\System.Private.SharedLibrary.Interop.Generated.iltoc"
+ "C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\PenappleWindowsApp.McgInterop\Adapters.g.cs"
+ "C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\PenappleWindowsApp.McgInterop\AssemblyInfo.g.cs"
+ "C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\PenappleWindowsApp.McgInterop\Data.g.cs"
+ "C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\PenappleWindowsApp.McgInterop\Helpers.g.cs"
+ "C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\PenappleWindowsApp.McgInterop\ImplTypes.g.cs"
+ "C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\PenappleWindowsApp.McgInterop\PInvoke.g.cs"
+ "C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\PenappleWindowsApp.McgInterop\SafeTypes.g.cs"
+ "C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\PenappleWindowsApp.McgInterop\SharedStubs.g.cs"

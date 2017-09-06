@@ -1,0 +1,2 @@
+C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp.csproj;x86
+C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsAppUnitTests\PenappleWindowsAppUnitTests.csproj;x86

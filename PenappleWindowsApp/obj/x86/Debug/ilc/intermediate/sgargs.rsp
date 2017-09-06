@@ -1,0 +1,12 @@
+/out:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\SgGenerated\\"
+/int:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\\"
+/ref:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\PreMergeILTransformed"
+/ref:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\TransformedSRWR"
+/ref:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\in"
+/ref:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\in\\"
+/ref:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\in\\"
+/ref:"C:\Users\Eric L\.nuget\packages\microsoft.net.native.compiler\1.6.1\tools\x86\ilc\lib\Private\\"
+/ref:"C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\in\WinMetadata"
+/ca:System.Private.CoreLib
+/cscpath:"C:\Users\Eric L\.nuget\packages\microsoft.net.native.compiler\1.6.1\tools\x86\ilc\csc"
+"@C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\ilc\intermediate\PreMergeILTransformed\ComputedSerializationInput.txt"

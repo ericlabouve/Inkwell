@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Universal.UI.Xaml.Controls" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Universal.UI.Xaml.Controls">
+				<NamedResource name="Universal.UI.Xaml.Controls.xr.xml" uri="ms-resource://Universal.UI.Xaml.Controls/Files/Universal.UI.Xaml.Controls/Universal.UI.Xaml.Controls.xr.xml">
+					<Candidate type="Path">
+						<Value>Universal.UI.Xaml.Controls\Universal.UI.Xaml.Controls.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="Universal.UI.Xaml.Controls.rd.xml" uri="ms-resource://Universal.UI.Xaml.Controls/Files/Universal.UI.Xaml.Controls/Properties/Universal.UI.Xaml.Controls.rd.xml">
+						<Candidate type="Path">
+							<Value>Universal.UI.Xaml.Controls\Properties\Universal.UI.Xaml.Controls.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://Universal.UI.Xaml.Controls/Files/Universal.UI.Xaml.Controls/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

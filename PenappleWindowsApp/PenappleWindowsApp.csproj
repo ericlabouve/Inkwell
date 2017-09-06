@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{AF6A987A-2E19-4CAC-9F96-7ED708BB7B2B}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PenappleWindowsApp</RootNamespace>
+    <AssemblyName>PenappleWindowsApp</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10586.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>PenappleWindowsApp_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>C8AEBEF0F2A583A7AB7004AB1F631D769A58BED1</PackageCertificateThumbprint>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <None Include="PenappleWindowsApp_TemporaryKey.pfx" />
+    <None Include="project.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Api\GroupChatApi.cs" />
+    <Compile Include="Api\IGroupChatDao.cs" />
+    <Compile Include="Api\IMessageDao.cs" />
+    <Compile Include="Api\IUserDao.cs" />
+    <Compile Include="Api\MessageApi.cs" />
+    <Compile Include="Api\UserApi.cs" />
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ChatHistory.cs" />
+    <Compile Include="ChatListView.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="GroupsContent.cs" />
+    <Compile Include="Helpers\ApiHelper.cs" />
+    <Compile Include="Helpers\ContentDialogHelper.cs" />
+    <Compile Include="Helpers\LoginHelper.cs" />
+    <Compile Include="Helpers\VisualTreeHelperExtensions.cs" />
+    <Compile Include="IAsyncInitialization.cs" />
+    <Compile Include="MessageContent.cs" />
+    <Compile Include="MessageListTemplateSelector.cs" />
+    <Compile Include="Models\CanvasPageModel.cs" />
+    <Compile Include="Models\CanvasPagePayload.cs" />
+    <Compile Include="Models\GroupChat.cs" />
+    <Compile Include="Models\ImageContainer.cs" />
+    <Compile Include="Models\IModel.cs" />
+    <Compile Include="Models\LoginPageModel.cs" />
+    <Compile Include="Models\Message.cs" />
+    <Compile Include="Models\MessageHistoryModel.cs" />
+    <Compile Include="Models\Provider.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="NavigationServices\INavigationService.cs" />
+    <Compile Include="NavigationServices\LeftFrameNavigator.cs" />
+    <Compile Include="NavigationServices\NavigationService.cs" />
+    <Compile Include="NavigationServices\ProfileNavigator.cs" />
+    <Compile Include="NavigationServices\RightFrameNavigator.cs" />
+    <Compile Include="Notifications\NotificationManager.cs" />
+    <Compile Include="Stroke.cs" />
+    <Compile Include="Notifications\NotificationTask.cs" />
+    <Compile Include="ViewModels\CanvasPageViewModel.cs" />
+    <Compile Include="ViewModels\DelegateCommand.cs" />
+    <Compile Include="ViewModels\GroupsViewModel.cs" />
+    <Compile Include="ViewModels\LoginPageViewModel.cs" />
+    <Compile Include="ViewModels\MainPageViewModel.cs" />
+    <Compile Include="ViewModels\MessageHistoryViewModel.cs" />
+    <Compile Include="ViewModels\ProfilePageViewModel.cs" />
+    <Compile Include="Views\CanvasPageView.xaml.cs">
+      <DependentUpon>CanvasPageView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GroupsSideBar.xaml.cs">
+      <DependentUpon>GroupsSideBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GroupsView.xaml.cs">
+      <DependentUpon>GroupsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoginPageView.xaml.cs">
+      <DependentUpon>LoginPageView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainPageView.xaml.cs">
+      <DependentUpon>MainPageView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\MessageHistoryView.xaml.cs">
+      <DependentUpon>MessageHistoryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProfilePageView.xaml.cs">
+      <DependentUpon>ProfilePageView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\add-op3.png" />
+    <Content Include="Assets\add-person-op2.png" />
+    <Content Include="Assets\add.png" />
+    <Content Include="Assets\AddUser.png" />
+    <Content Include="Assets\AddUser2.png" />
+    <Content Include="Assets\back-op4.png" />
+    <Content Include="Assets\backarrow.png" />
+    <Content Include="Assets\backarrowwhite.png" />
+    <Content Include="Assets\BackButton.png" />
+    <Content Include="Assets\BlueCircle.png" />
+    <Content Include="Assets\book-op1.png" />
+    <Content Include="Assets\book-op2.png" />
+    <Content Include="Assets\book-op3.png" />
+    <Content Include="Assets\book-op4.png" />
+    <Content Include="Assets\book-op6.png" />
+    <Content Include="Assets\compose-op5.png" />
+    <Content Include="Assets\compose-op7.png" />
+    <Content Include="Assets\FaceBookButtonImage.PNG" />
+    <Content Include="Assets\FacebookCircleImg.png" />
+    <Content Include="Assets\GoogleButtonImage.PNG" />
+    <Content Include="Assets\GoogleCircleImg.png" />
+    <Content Include="Assets\GreenAddUser.png" />
+    <Content Include="Assets\GreenAddUser2.png" />
+    <Content Include="Assets\GreenBackButton.png" />
+    <Content Include="Assets\GreenCircle.png" />
+    <Content Include="Assets\group-op1.png" />
+    <Content Include="Assets\group-op2.png" />
+    <Content Include="Assets\group-op3.png" />
+    <Content Include="Assets\group-op4.png" />
+    <Content Include="Assets\ic_delete_black_24dp.png" />
+    <Content Include="Assets\ic_error_outline_black_24dp.png" />
+    <Content Include="Assets\ic_mode_edit_black_24dp.png" />
+    <Content Include="Assets\ink-drop-hi-black.png" />
+    <Content Include="Assets\ink-drop-hi-light-purple.png" />
+    <Content Include="Assets\ink-drop-hi-purple.png" />
+    <Content Include="Assets\inkwell_logo.scale-150.png" />
+    <Content Include="Assets\inkwell_logo.scale-200.png" />
+    <Content Include="Assets\inkwell_logo.scale-400.png" />
+    <Content Include="Assets\inwell-logo-transparent-bg.png" />
+    <Content Include="Assets\inkwell-logo.png" />
+    <Content Include="Assets\list-op2.png" />
+    <Content Include="Assets\login-op1.png" />
+    <Content Include="Assets\login-op2.png" />
+    <Content Include="Assets\login-op4.png" />
+    <Content Include="Assets\MicrosoftButtonImage.PNG" />
+    <Content Include="Assets\MicrosoftCircleImg.png" />
+    <Content Include="Assets\noimagefound.jpg" />
+    <Content Include="Assets\OrangeBackButton.png" />
+    <Content Include="Assets\OrangeBackButton2.png" />
+    <Content Include="Assets\OrangeCircle.png" />
+    <Content Include="Assets\penappleLogoScaled.png" />
+    <Content Include="Assets\pinappleLogo.png" />
+    <None Include="Package.StoreAssociation.xml" />
+    <Content Include="Assets\pinappleLogo.scale-100.png" />
+    <Content Include="Assets\pineappleLogo1.png" />
+    <Content Include="Assets\pineappleLogo2.png" />
+    <Content Include="Assets\profile-op1.png" />
+    <Content Include="Assets\profile-op2.png" />
+    <Content Include="Assets\PurpleCircle.png" />
+    <Content Include="Assets\RedCircle.png" />
+    <Content Include="Assets\refresh-op2.png" />
+    <Content Include="Assets\refresh-op3.png" />
+    <Content Include="Assets\refresh-op4.png" />
+    <Content Include="Assets\refresh-op6.png" />
+    <Content Include="Assets\refresh-op7.png" />
+    <Content Include="Assets\refresh-op9.png" />
+    <Content Include="Assets\refresh.png" />
+    <Content Include="Assets\send-op2.png" />
+    <Content Include="Assets\send-op4.png" />
+    <Content Include="Assets\send-op5.png" />
+    <Content Include="Assets\send-op6.png" />
+    <Content Include="Assets\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\Square310x310Logo.scale-100.png" />
+    <Content Include="Assets\Square310x310Logo.scale-200.png" />
+    <Content Include="Assets\Square310x310Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-256.png" />
+    <Content Include="Assets\Square71x71Logo.scale-100.png" />
+    <Content Include="Assets\Square71x71Logo.scale-200.png" />
+    <Content Include="Assets\Square71x71Logo.scale-400.png" />
+    <Content Include="Assets\white-add.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <Content Include="Assets\YellowBackButton.png" />
+    <Content Include="Assets\YellowBackButton2.png" />
+    <Content Include="Assets\YellowCircle.png" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Views\CanvasPageView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GroupsSideBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GroupsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LoginPageView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainPageView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\MessageHistoryView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ProfilePageView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

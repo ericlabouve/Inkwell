@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="PenappleWindowsApp.Views.ProfilePageView"
+    xmlns:ViewModels="using:PenappleWindowsApp.ViewModels"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PenappleWindowsApp.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Border Background="#d2b9ea">
+        <Grid Background="#f9f3fe">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!--<Button Command="{Binding iconCommand}" Grid.Row="1" Grid.Column="1" Background="#00000000" HorizontalAlignment="Center" VerticalAlignment="Center">-->
+            <Image Source="{Binding userImage}" Stretch="Uniform" Grid.Row="0"
+                   HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0 50 0 0"/>
+            <!--</Button>-->
+
+            <TextBlock Text="{Binding profileIcon}" Grid.Row="0" FontSize="95px" FontWeight="Bold" Foreground="#f9f3fe"
+                                               HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,75,0,0"/>
+
+            <StackPanel Orientation="Vertical" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="{Binding userName}" FontSize="30px" FontFamily="Patua One"  Foreground="Black" 
+                           HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,30,0,0"/>
+                <TextBlock Text="{Binding userEmail}" FontSize="20px" FontFamily="Patua One" Foreground="Black" 
+                           HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,0"/>
+            </StackPanel>
+
+            <Button x:ConnectionId='1' Name="LogoutButton" Content="Logout" Command="{Binding logoutButtonCommand}" Grid.Row="2" Foreground="Black"  Background="DarkGray"
+                    HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" FontFamily="Patua One"/>
+        </Grid>
+    </Border>
+</Page>
+

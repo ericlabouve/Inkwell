@@ -1,0 +1,18 @@
+Microsoft.VisualStudio.TestPlatform.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Microsoft.VisualStudio.TestPlatform.Common.Resources.resources
+Microsoft.VisualStudio.TestPlatform.Core, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Microsoft.VisualStudio.TestPlatform.Core.Resources.resources
+Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter.Framework.Messages.resources
+  Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter.Resources.resources
+Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Microsoft.VisualStudio.TestPlatform.ObjectModel.CommonResources.resources
+  Microsoft.VisualStudio.TestPlatform.ObjectModel.EqtMessages.resources
+  Microsoft.VisualStudio.TestPlatform.ObjectModel.Resources.resources
+  Microsoft.VisualStudio.TestPlatform.ObjectModel.ValidateArgStrings.resources
+Microsoft.VisualStudio.TestPlatform.TestExecutor.Core, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Microsoft.VisualStudio.TestPlatform.TestExecutor.Resources.resources
+Microsoft.VisualStudio.TestPlatform.UnitTestFramework, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Microsoft.VisualStudio.TestPlatform.UnitTestFramework.FrameworkMessages.resources
+Microsoft.WindowsAzure.Mobile, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  Microsoft.WindowsAzure.MobileServices.Resources.resources

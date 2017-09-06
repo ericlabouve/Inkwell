@@ -1,0 +1,60 @@
+﻿<Page
+    x:Class="PenappleWindowsApp.Views.GroupsSideBar"
+    xmlns:ViewModels="using:PenappleWindowsApp.ViewModels"
+    xmlns:Models="using:PenappleWindowsApp.Models"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PenappleWindowsApp.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <!-- 884ff2 -->
+    <Grid Background="#884ff2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".15*"/>
+            <RowDefinition Height=".15*"/>
+            <RowDefinition Height=".15*"/>
+            <RowDefinition Height=".15*"/>
+            <RowDefinition Height=".15*"/>
+            <RowDefinition Height=".5*"/>
+        </Grid.RowDefinitions>
+
+        <Button x:ConnectionId='1' Name="HomeButton"                          Grid.Row="0"
+                    HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#00000000" ToolTipService.ToolTip="Home">
+            <Image Source="../Assets/inwell-logo-transparent-bg.png" Stretch="Uniform"
+                           HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 5 0 5"></Image>
+        </Button>
+
+        <Button x:ConnectionId='2' Name="BackButton"                          Grid.Row="1" Background="#00000000"
+                    HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Visibility="Collapsed" ToolTipService.ToolTip="Back">
+            <Image Source="../Assets/back-op4.png" Stretch="Uniform"
+                           HorizontalAlignment="Center" VerticalAlignment="Center" Margin="11"></Image>
+        </Button>
+        
+        <Button x:ConnectionId='3' Name="ProfileButton"                             Grid.Row="1"
+                    HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#00000000" ToolTipService.ToolTip="Profile">
+            <Image Source="../Assets/profile-op2.PNG" Stretch="Uniform"
+                           HorizontalAlignment="Center" VerticalAlignment="Center" Margin="11"></Image>
+        </Button>
+
+        <Button x:ConnectionId='4' Name="JournalButton"                             Grid.Row="2"
+                    HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#00000000" ToolTipService.ToolTip="Journal">
+            <Image Source="../Assets/book-op6.PNG" Stretch="Uniform"
+                           HorizontalAlignment="Center" VerticalAlignment="Center" Margin="11"></Image>
+        </Button>
+
+        <Button x:ConnectionId='5' Name="GroupsButton"                            Grid.Row="3"
+                    HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#00000000" ToolTipService.ToolTip="Groups">
+            <Image Source="../Assets/group-op4.PNG" Stretch="Uniform"
+                           HorizontalAlignment="Center" VerticalAlignment="Center" Margin="11"></Image>
+        </Button>
+
+        <Button x:ConnectionId='6' Name="AddGroupButton"                              Grid.Row="4"
+                    HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#00000000" ToolTipService.ToolTip="New Group">
+            <Image Source="../Assets/white-add.PNG" Stretch="Uniform"
+                           HorizontalAlignment="Center" VerticalAlignment="Center" Margin="9"></Image>
+        </Button>
+    </Grid>
+</Page>
+

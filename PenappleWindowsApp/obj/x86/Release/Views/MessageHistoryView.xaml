@@ -1,0 +1,80 @@
+﻿<Page
+    x:Class="PenappleWindowsApp.Views.MessageHistoryView"
+    xmlns:ViewModels="using:PenappleWindowsApp.ViewModels"
+    xmlns:Models="using:PenappleWindowsApp.Models"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PenappleWindowsApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <!-- Images on this page have been saved from Google Images, and are not owned by Penapple -->
+    
+    <!--d:DataContext="{d:DesignInstance Type=ViewModels:MessageHistoryViewModel}"-->
+    <Border Background="#d2b9ea">
+        <!-- #FFC4EAEA-->
+        <Grid>
+            <FlyoutBase.AttachedFlyout>
+                <MenuFlyout/>
+            </FlyoutBase.AttachedFlyout>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="8*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:ConnectionId='1' Name="BackButton"                          Content="Back" Grid.Row="0" Grid.Column="0" 
+                HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                FontSize="36" FontFamily="MV Boli">
+            </Button>
+
+            <TextBlock Text="{Binding GroupName}" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center"
+                    VerticalAlignment="Center" FontSize="64" FontFamily="MV Boli"  Foreground="Black"/>
+
+            <Button x:ConnectionId='2' Name="AddButton" Command="{Binding addCommand}" Content="Add" Grid.Row="0" Grid.Column="2"
+                    HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+                    FontSize="36" FontFamily="MV Boli">
+            </Button>
+
+            <Border Grid.Row="1" Grid.ColumnSpan="3" BorderBrush="#FFAAAAAA" BorderThickness="0 5 0 5">
+                <local:ChatListView x:ConnectionId='5' x:Name="HistoryBox" IncrementalLoadingThreshold="1" ItemsSource="{Binding History}"
+                                    IsItemClickEnabled="True"                           >
+                    <ListView.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <ItemsStackPanel ItemsUpdatingScrollMode="KeepLastItemInView" VerticalAlignment="Bottom"/>
+                        </ItemsPanelTemplate>
+                    </ListView.ItemsPanel>
+                    <ListView.ItemTemplate>
+                        <DataTemplate                                  >
+                            <StackPanel>
+                                <RelativePanel>
+                                    <TextBlock Name="infoBlock" Text="{Binding info}" RelativePanel.AlignRightWithPanel="True"/>
+                                </RelativePanel>
+                                <Image Source="{Binding imageSource}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </local:ChatListView>
+
+                
+            </Border>
+
+            <Border BorderBrush="#FFAAAAAA" BorderThickness="0 0 5 0" Grid.Row="2" Grid.Column="0">
+                <Button x:ConnectionId='4' Name="ReceiveButton" Command="{Binding receiveCommand}" Content="Receive" 
+                    HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                    FontSize="36" FontFamily="MV Boli"/>
+            </Border>
+            <Button x:ConnectionId='3' Name="ComposeButton" Command="{Binding composeCommand}" Content="Compose" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" 
+                HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                FontSize="36" FontFamily="MV Boli" />
+        </Grid>
+    </Border>
+</Page>
+

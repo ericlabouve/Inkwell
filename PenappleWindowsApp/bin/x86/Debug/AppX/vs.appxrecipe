@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-PBINFL0</Machine>
+    <WindowsUser>Eric L</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>3664df23-0286-42d8-8695-5fb6e6fa67ec</PackageIdentityName>
+    <PackageIdentityPublisher>CN=B8BE913D-FF80-473E-8CB8-0488BC70CF78</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>0F3D9EF01184F6E549410DFEE02D303E6E56FE0FF282A9E1EC427E9983443EEB</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>30531franswah.Inkwell_0.1.1.0_x86__6k9aqrxrk1grp</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>30531franswah.Inkwell_6k9aqrxrk1grp!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>30531franswah.Inkwell</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=B8BE913D-FF80-473E-8CB8-0488BC70CF78</RegisteredPackagePublisher>
+    <RegisteredVersion>0.1.1.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-12T20:13:05.822</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\add-op3.png">
+      <PackagePath>Assets\add-op3.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\add-person-op2.png">
+      <PackagePath>Assets\add-person-op2.png</PackagePath>
+      <Modified>2017-05-09T20:59:13.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\add.png">
+      <PackagePath>Assets\add.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\AddUser.png">
+      <PackagePath>Assets\AddUser.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\AddUser2.png">
+      <PackagePath>Assets\AddUser2.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\backarrow.png">
+      <PackagePath>Assets\backarrow.png</PackagePath>
+      <Modified>2017-04-25T00:31:34.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\backarrowwhite.png">
+      <PackagePath>Assets\backarrowwhite.png</PackagePath>
+      <Modified>2017-05-12T20:08:34.320</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\BackButton.png">
+      <PackagePath>Assets\BackButton.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\BlueCircle.png">
+      <PackagePath>Assets\BlueCircle.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\book-op1.png">
+      <PackagePath>Assets\book-op1.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\book-op2.png">
+      <PackagePath>Assets\book-op2.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\book-op3.png">
+      <PackagePath>Assets\book-op3.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\book-op4.png">
+      <PackagePath>Assets\book-op4.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\book-op6.png">
+      <PackagePath>Assets\book-op6.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\compose-op5.png">
+      <PackagePath>Assets\compose-op5.png</PackagePath>
+      <Modified>2017-05-09T20:59:13.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\FaceBookButtonImage.PNG">
+      <PackagePath>Assets\FaceBookButtonImage.PNG</PackagePath>
+      <Modified>2017-04-05T23:45:07.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\FacebookCircleImg.png">
+      <PackagePath>Assets\FacebookCircleImg.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\GoogleButtonImage.PNG">
+      <PackagePath>Assets\GoogleButtonImage.PNG</PackagePath>
+      <Modified>2017-04-05T23:45:07.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\GoogleCircleImg.png">
+      <PackagePath>Assets\GoogleCircleImg.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\GreenAddUser.png">
+      <PackagePath>Assets\GreenAddUser.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\GreenAddUser2.png">
+      <PackagePath>Assets\GreenAddUser2.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\GreenBackButton.png">
+      <PackagePath>Assets\GreenBackButton.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.623</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\GreenCircle.png">
+      <PackagePath>Assets\GreenCircle.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.624</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\group-op1.png">
+      <PackagePath>Assets\group-op1.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\group-op2.png">
+      <PackagePath>Assets\group-op2.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\group-op3.png">
+      <PackagePath>Assets\group-op3.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\group-op4.png">
+      <PackagePath>Assets\group-op4.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\ic_delete_black_24dp.png">
+      <PackagePath>Assets\ic_delete_black_24dp.png</PackagePath>
+      <Modified>2017-05-11T20:19:20.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\ic_mode_edit_black_24dp.png">
+      <PackagePath>Assets\ic_mode_edit_black_24dp.png</PackagePath>
+      <Modified>2017-05-11T20:19:20.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\ink-drop-hi.png">
+      <PackagePath>Assets\ink-drop-hi.png</PackagePath>
+      <Modified>2017-04-21T21:26:46.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\inkwell-logo.png">
+      <PackagePath>Assets\inkwell-logo.png</PackagePath>
+      <Modified>2017-04-18T19:42:22.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\inkwell_logo.scale-150.png">
+      <PackagePath>Assets\inkwell_logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\inkwell_logo.scale-200.png">
+      <PackagePath>Assets\inkwell_logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\inkwell_logo.scale-400.png">
+      <PackagePath>Assets\inkwell_logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\inwell-logo-transparent-bg.png">
+      <PackagePath>Assets\inwell-logo-transparent-bg.png</PackagePath>
+      <Modified>2017-04-18T19:42:22.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.626</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\login-op1.png">
+      <PackagePath>Assets\login-op1.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\login-op2.png">
+      <PackagePath>Assets\login-op2.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\login-op4.png">
+      <PackagePath>Assets\login-op4.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\MicrosoftButtonImage.PNG">
+      <PackagePath>Assets\MicrosoftButtonImage.PNG</PackagePath>
+      <Modified>2017-04-05T23:45:07.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\MicrosoftCircleImg.png">
+      <PackagePath>Assets\MicrosoftCircleImg.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.632</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\noimagefound.jpg">
+      <PackagePath>Assets\noimagefound.jpg</PackagePath>
+      <Modified>2017-04-05T23:45:07.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\OrangeBackButton.png">
+      <PackagePath>Assets\OrangeBackButton.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.634</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\OrangeBackButton2.png">
+      <PackagePath>Assets\OrangeBackButton2.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\OrangeCircle.png">
+      <PackagePath>Assets\OrangeCircle.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\penappleLogoScaled.png">
+      <PackagePath>Assets\penappleLogoScaled.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.676</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\pinappleLogo.png">
+      <PackagePath>Assets\pinappleLogo.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.678</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\pinappleLogo.scale-100.png">
+      <PackagePath>Assets\pinappleLogo.scale-100.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\pineappleLogo1.png">
+      <PackagePath>Assets\pineappleLogo1.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\pineappleLogo2.png">
+      <PackagePath>Assets\pineappleLogo2.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\profile-op1.png">
+      <PackagePath>Assets\profile-op1.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\profile-op2.png">
+      <PackagePath>Assets\profile-op2.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\PurpleCircle.png">
+      <PackagePath>Assets\PurpleCircle.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\RedCircle.png">
+      <PackagePath>Assets\RedCircle.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\refresh-op2.png">
+      <PackagePath>Assets\refresh-op2.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\refresh-op3.png">
+      <PackagePath>Assets\refresh-op3.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\refresh-op4.png">
+      <PackagePath>Assets\refresh-op4.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\refresh-op6.png">
+      <PackagePath>Assets\refresh-op6.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\refresh-op7.png">
+      <PackagePath>Assets\refresh-op7.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\refresh-op9.png">
+      <PackagePath>Assets\refresh-op9.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\refresh.png">
+      <PackagePath>Assets\refresh.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\send-op2.png">
+      <PackagePath>Assets\send-op2.png</PackagePath>
+      <Modified>2017-05-09T20:59:13.590</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\send-op4.png">
+      <PackagePath>Assets\send-op4.png</PackagePath>
+      <Modified>2017-05-09T20:59:13.592</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\Square310x310Logo.scale-200.png">
+      <PackagePath>Assets\Square310x310Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\Square310x310Logo.scale-400.png">
+      <PackagePath>Assets\Square310x310Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\Square71x71Logo.scale-200.png">
+      <PackagePath>Assets\Square71x71Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\Square71x71Logo.scale-400.png">
+      <PackagePath>Assets\Square71x71Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\white-add.png">
+      <PackagePath>Assets\white-add.png</PackagePath>
+      <Modified>2017-05-02T19:23:54.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-18T19:42:22.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\YellowBackButton.png">
+      <PackagePath>Assets\YellowBackButton.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\YellowBackButton2.png">
+      <PackagePath>Assets\YellowBackButton2.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Assets\YellowCircle.png">
+      <PackagePath>Assets\YellowCircle.png</PackagePath>
+      <Modified>2017-04-05T23:45:07.666</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2016-06-14T04:51:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2016-11-30T10:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2016-11-30T10:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\PenappleWindowsApp.dll">
+      <PackagePath>PenappleWindowsApp.dll</PackagePath>
+      <Modified>2017-05-12T20:13:03.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\PenappleWindowsApp.exe">
+      <PackagePath>PenappleWindowsApp.exe</PackagePath>
+      <Modified>2017-05-12T20:13:05.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\PenappleWindowsApp.pdb">
+      <PackagePath>PenappleWindowsApp.pdb</PackagePath>
+      <Modified>2017-05-12T20:13:05.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-12T20:13:08.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\_Resources\0.rsrc">
+      <PackagePath>_Resources\0.rsrc</PackagePath>
+      <Modified>2017-05-12T20:12:15.470</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eric L\Source\Repos\PenappleWindowsApp\PenappleWindowsApp\PenappleWindowsApp\bin\x86\Debug\ilc\_Resources\index.txt">
+      <PackagePath>_Resources\index.txt</PackagePath>
+      <Modified>2017-05-12T20:12:15.478</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\Eric L\.nuget\packages\microsoft.net.native.sharedlibrary-x86\1.6.0\build\..\tools\SharedLibrary\chk\Native\Microsoft.NET.Native.Framework.Debug.1.6.appx">
+      <Name>Microsoft.NET.Native.Framework.Debug.1.6</Name>
+      <Version>1.6.24903.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.Debug.1.6, MinVersion = 1.6.24903.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Eric L\.nuget\packages\microsoft.net.native.sharedlibrary-x86\1.6.0\build\..\tools\SharedLibrary\chk\Native\Microsoft.NET.Native.Framework.Debug.1.6.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Eric L\.nuget\packages\microsoft.net.native.compiler\1.6.1\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.6.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.6</Name>
+      <Version>1.6.24903.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.6, MinVersion = 1.6.24903.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Eric L\.nuget\packages\microsoft.net.native.compiler\1.6.1\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.6.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Eric L\.nuget\packages\microsoft.net.native.compiler\1.6.1\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.6.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.6</Name>
+      <Version>1.6.24903.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.6, MinVersion = 1.6.24903.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Eric L\.nuget\packages\microsoft.net.native.compiler\1.6.1\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.6.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Eric L\.nuget\packages\microsoft.net.native.compiler\1.6.1\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.6.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.6</Name>
+      <Version>1.6.24903.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.6, MinVersion = 1.6.24903.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Eric L\.nuget\packages\microsoft.net.native.compiler\1.6.1\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.6.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

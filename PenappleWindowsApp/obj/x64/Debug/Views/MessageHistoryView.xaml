@@ -1,0 +1,152 @@
+﻿<Page
+    x:Class="PenappleWindowsApp.Views.MessageHistoryView"
+    xmlns:ViewModels="using:PenappleWindowsApp.ViewModels"
+    xmlns:Models="using:PenappleWindowsApp.Models"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PenappleWindowsApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:C4FTK="using:Coding4Fun.Toolkit.Controls"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <CollectionViewSource x:ConnectionId='1' x:Name="Messages" Source="{Binding History}"/>
+
+        <DataTemplate x:Key="SentMessageTemplate"                                  >
+            <StackPanel Orientation="Vertical">
+                <TextBlock Name="infoBlock" Text="{Binding name_creationDate_String}" FontFamily="Patua One" FontSize="12" TextWrapping="Wrap" Foreground="#220022" Margin="0,10,0,-10"/>
+                <C4FTK:ChatBubble Grid.Row="0" Grid.Column="2" HorizontalAlignment="Stretch" BorderBrush="Gray" Background="Gray"  Foreground="White" ChatBubbleDirection="LowerLeft">
+                <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="6">
+                    <StackPanel Orientation="Horizontal"  FlowDirection="LeftToRight" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="6">
+                        <Image Source="{Binding errorImageSource}" Margin="0,0,10,0"/>
+                        <TextBlock Name="message_StringBlock" Text="{Binding message_String}" FontFamily="Patua One" FontSize="16" TextWrapping="Wrap" MaxWidth="300"/>
+                    </StackPanel>
+                    <Image Source="{Binding imageSource}" Stretch="Fill"/>
+                </StackPanel>
+            </C4FTK:ChatBubble>
+            </StackPanel>
+        </DataTemplate>
+
+        <DataTemplate x:Key="ReceivedMessageTemplate"                                  >
+            <StackPanel Orientation="Vertical">
+                <TextBlock Name="infoBlock" Text="{Binding name_creationDate_String}" FontFamily="Patua One" FontSize="12" TextWrapping="Wrap" Foreground="#220022" Margin="0,10,0,-10"/>
+                <C4FTK:ChatBubble Grid.Row="0" Grid.Column="2" HorizontalAlignment="Stretch"  BorderBrush="#5a00b4" Background="#5a00b4" Foreground="White" ChatBubbleDirection="LowerLeft">
+                    <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="6">
+                        <StackPanel Orientation="Horizontal"  FlowDirection="LeftToRight"  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="6">
+                            <Image Source="{Binding errorImageSource}" Margin="0,0,10,0"/>
+                            <TextBlock Name="message_StringBlock" Text="{Binding message_String}" FontFamily="Patua One" FontSize="16" TextWrapping="Wrap" MaxWidth="300"/>
+                        </StackPanel>
+                        <Image Source="{Binding imageSource}" Stretch="Fill"/>
+                    </StackPanel>
+                </C4FTK:ChatBubble>
+            </StackPanel>
+        </DataTemplate>
+
+        <local:MessageListTemplateSelector x:Key="MessageListTemplateSelector"
+            SentMessageTemplate="{StaticResource SentMessageTemplate}"
+            ReceivedMessageTemplate="{StaticResource ReceivedMessageTemplate}">
+        </local:MessageListTemplateSelector>
+
+    </Page.Resources>
+    
+    <!-- Images on this page have been saved from Google Images, and are not owned by Penapple -->
+    
+    <!--d:DataContext="{d:DesignInstance Type=ViewModels:MessageHistoryViewModel}"-->
+    <Border x:ConnectionId='2' Background="#f9f3fe" Name="MessageHistory">
+        <!-- #FFC4EAEA-->
+        <Grid x:ConnectionId='3' Name="MessageHistoryGrid">
+            <FlyoutBase.AttachedFlyout>
+                <MenuFlyout/>
+            </FlyoutBase.AttachedFlyout>
+            
+            <!-- Total Row size sum should be 6.6 -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height=".6*"/>
+                <RowDefinition Height="5.3*"/>
+                <RowDefinition Height=".1*"/>
+                <RowDefinition Height=".5*"/>
+                <RowDefinition Height=".1*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".05*"/>
+                <ColumnDefinition Width=".25*"/>
+                <ColumnDefinition Width=".25*"/>
+                <ColumnDefinition Width="1.25*"/>
+                <ColumnDefinition Width=".25*"/>
+                <ColumnDefinition Width=".05*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="6" BorderBrush="#e4d0f5" BorderThickness="0 0 0 2">
+                <TextBlock Text="{Binding GroupName}" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                           FontSize="28" FontFamily="Patua One"  Foreground="DarkGray"/>
+            </Border>
+
+            <!--
+            <Border Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="2" BorderBrush="#e4d0f5" BorderThickness="0 0 0 2">
+                <Button Name="ReceiveButton" Command="{Binding receiveCommand}"
+                    HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#00000000">
+                    <Grid Width="25" Height="25">
+                        <Ellipse Fill="#5a00b4" Width="25" Height="25"/>
+                        <Image Source="../Assets/refresh-op9.PNG" Stretch="Uniform"
+                           HorizontalAlignment="Center" VerticalAlignment="Center" Margin="7"></Image>
+                    </Grid>
+                </Button>
+            </Border> -->
+
+            <local:ChatListView x:ConnectionId='4' x:Name="HistoryBox" IncrementalLoadingThreshold="1" ItemsSource="{Binding History}" ItemTemplateSelector="{StaticResource MessageListTemplateSelector}"
+                                HorizontalContentAlignment="Right" IsItemClickEnabled="True"                                                                 Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="6">
+                
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <ItemsStackPanel ItemsUpdatingScrollMode="KeepLastItemInView" VerticalAlignment="Bottom"/>
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+                <ListView.Resources>
+                    <MenuFlyout x:ConnectionId='9' x:Name="MessageOptionsFlyout">
+                        <MenuFlyoutItem x:ConnectionId='10' x:Name="Tag" Text="Tag"                  />
+                        <MenuFlyoutItem x:ConnectionId='11' x:Name="UseText" Text="Use text"                      />
+                        <!--<MenuFlyoutItem x:Name="Resend" Text="Resend" Click="Resend_Click"/>-->
+                    </MenuFlyout>
+                </ListView.Resources>
+            </local:ChatListView>
+
+            
+            <ProgressRing IsActive="{Binding LoadingIndicator}" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4"
+                          Height="100" Width="100" Foreground="#5a00b4"/>
+
+            <!--6906cd 6205c1 884ff2-->
+            <Border Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="4" BorderBrush="#e4d0f5" BorderThickness="0, 0, 0, 2" CornerRadius="10">
+                <Rectangle Fill="#884ff2" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="4" RadiusX="10.0"  RadiusY="10.0"/>
+            </Border>
+
+            <Border Grid.Row="3" Grid.Column="1" BorderBrush="#e4d0f5" BorderThickness="0 0 .5 0">
+                <Button x:ConnectionId='8' Name="AddButton" Command="{Binding addCommand}" Grid.Row="2" Grid.Column="0"
+                    HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#00000000" ToolTipService.ToolTip="Add To Group">
+                    <Image Source="../Assets/add-person-op2.PNG" Stretch="Uniform"
+                           HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2"></Image>
+                </Button>
+            </Border>
+
+            <Button x:ConnectionId='5' Name="ComposeButton" Command="{Binding composeCommand}" Grid.Row="3" Grid.Column="2"
+                HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#00000000" ToolTipService.ToolTip="Toggle Canvas">
+                <Image Source="{Binding CanvasListButton}" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                       Stretch="Uniform" Margin="2"></Image>
+            </Button>
+
+            <Border Grid.Row="3" Grid.Column="3" BorderBrush="#e4d0f5" BorderThickness=".5 0 .5 2">
+                <TextBox x:ConnectionId='7' Name="TextMsgBox"  Text="{Binding TextMsg, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" PlaceholderText="Enter text here..."  Grid.Row="2" Grid.Column="2"
+                     HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="#f9f3fe" Background="#00000000" 
+                     FontFamily="Patua One" FontSize="16px" TextWrapping="Wrap"                            ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+            </Border>
+            
+            <Button x:ConnectionId='6' Name="SendTextButton" Command="{Binding sendTextCommand}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                    Grid.Row="3" Grid.Column="4" Background="#00000000" ToolTipService.ToolTip="Send">
+                <Image Source="../Assets/send-op6.PNG" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                       Stretch="Uniform" Margin="0"></Image>
+            </Button>
+        </Grid>
+    </Border>
+</Page>
+

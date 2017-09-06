@@ -1,0 +1,63 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="PenappleWindowsApp.CanvasPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PenappleWindowsApp"
+    xmlns:ViewModels="using:PenappleWindowsApp.ViewModels"
+    xmlns:Models="using:PenappleWindowsApp.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#f9f3fe"
+          d:DataContext="{d:DesignInstance Type=ViewModels:CanvasPageViewModel}">
+
+        <Viewbox>
+            <Grid Background="White">
+                <Image Source="{Binding BackgroundImagePath, Mode=OneWay}"></Image>
+                <Image Source="{Binding ImageBitmap, Mode=OneWay}"></Image>
+                <InkCanvas x:ConnectionId='6' Name="canvas" Width="1080" Height="1080">
+                </InkCanvas>
+            </Grid>
+        </Viewbox>
+
+        <Button x:ConnectionId='2' Name="openHamburger" FontFamily="Segoe MDL2 Assets" Content="&#xE011;" 
+                Background="Transparent" Command="{Binding showToolbarButtonCommand}"
+                HorizontalAlignment="Center" VerticalAlignment="Top" Visibility="Collapsed" ToolTipService.ToolTip="Show Toolbar"/>
+
+        <Button x:ConnectionId='3' Name="closeHamburger" FontFamily="Segoe MDL2 Assets" Content="&#xE010;" 
+                Background="Transparent" Command="{Binding showToolbarButtonCommand}"
+                HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,48,0,0"
+                Visibility="Visible" ToolTipService.ToolTip="Hide Toolbar"/>
+
+        <RelativePanel VerticalAlignment="Top" HorizontalAlignment="Center">
+            <InkToolbar x:ConnectionId='4' Name="toolbar" 
+                                                     
+                    InitialControls="None"
+                    RenderTransformOrigin="0.0,0.0" 
+                    Margin="0,0,0,0" 
+                    UseLayoutRounding="False" 
+                    d:LayoutRounding="Auto" 
+                    Visibility="Visible">
+
+                <InkToolbarPencilButton MaxStrokeWidth="300"/>
+                <InkToolbarBallpointPenButton MaxStrokeWidth="300"/>
+                <InkToolbarHighlighterButton MaxStrokeWidth="300"/>
+                <InkToolbarEraserButton/>
+            </InkToolbar>
+
+            <CommandBar x:ConnectionId='5' Name="commandBar" RelativePanel.RightOf="toolbar" Margin="0,0,0,0" Visibility="Visible">
+                <AppBarButton Icon="Clear" IsCompact="True" Command="{Binding clearButtonCommand}" ToolTipService.ToolTip="Clear Background"
+                                Width="48" Height="48"/>
+                <AppBarButton Icon="Upload" IsCompact="True" Command="{Binding imageButtonCommand}" ToolTipService.ToolTip="Upload Image"
+                                Width="48" Height="48"/>
+                <AppBarButton Icon="Send" Command="{Binding sendCommand}" IsCompact="True" ToolTipService.ToolTip="Send" 
+                              Width="48" Height="48" />
+            </CommandBar>
+        </RelativePanel>
+        <ProgressRing IsActive="{Binding LoadingIndicator}" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Height="100" Width="100"
+                          Foreground="#5a00b4"/>
+
+    </Grid>
+</Page>
+

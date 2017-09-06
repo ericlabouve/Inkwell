@@ -5,4 +5,4 @@ For a full demonstration of the application, please view the first half of this 
 
 <img src="Assets/inkwell_logo_small.png" width="200">
 
-![Inkwell Logo](https://raw.githubusercontent.com/ericlabouve/Inkwell/master/inkwell_logo_small.png =220x250)
+![Inkwell Logo](https://raw.githubusercontent.com/ericlabouve/Inkwell/master/inkwell_logo_small.png)

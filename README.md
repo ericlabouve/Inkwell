@@ -3,4 +3,6 @@ A pen based, message application that revolutionizes the way we chat between cli
 
 For a full demonstration of the application, please view the first half of this video: https://www.youtube.com/watch?v=M7Qxv_fkFwc&t=23s
 
+<img src="Assets/inkwell_logo_small.png" width="200">
+
 ![Inkwell Logo](https://raw.githubusercontent.com/ericlabouve/Inkwell/master/inkwell_logo_small.png =220x250)
